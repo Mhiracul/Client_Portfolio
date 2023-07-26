@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom arrow styles */
+/* Custom arrow styles */
+
+/* Optional: Add some margin or position adjustments */
+.slick-prev,
+.slick-next {
+  background: #000;
+}

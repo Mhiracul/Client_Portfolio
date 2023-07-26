@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
         <div className="flex gap-4 justify-center">
           <FaMailBulk size={20} color="#FB002B" />
-          champgraphix.gmail.com
+          champgraphix@gmail.com
         </div>
       </div>
     </div>
