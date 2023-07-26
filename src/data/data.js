@@ -1,10 +1,8 @@
 import one from "../assets/one.jpeg";
 import two from "../assets/two.jpeg";
 import three from "../assets/three.jpeg";
-import four from "../assets/four.jpeg";
 import five from "../assets/five.jpeg";
 import six from "../assets/six.jpeg";
-import seven from "../assets/seven.jpeg";
 import eight from "../assets/eight.jpeg";
 import nine from "../assets/nine.jpeg";
 import ten from "../assets/ten.jpeg";
@@ -32,14 +30,7 @@ export const data = [
     github: "",
     live: "",
   },
-  {
-    id: 4,
-    name: "Church Design",
-    image: seven,
 
-    github: "",
-    live: "",
-  },
   {
     id: 5,
     name: "Church Design",
@@ -48,14 +39,7 @@ export const data = [
     github: "",
     live: "",
   },
-  {
-    id: 5,
-    name: "Church Design",
-    image: four,
 
-    github: "",
-    live: "",
-  },
   {
     id: 5,
     name: "Church Design",

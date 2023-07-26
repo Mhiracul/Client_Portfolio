@@ -7,7 +7,7 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
-
+import Cham from "../assets/cham.svg";
 //import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
@@ -16,12 +16,13 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#EEF3F8] text-[#185515]">
+    <div className="fixed z-[999999] w-full h-[80px] flex justify-between items-center px-4 bg-[#EEF3F8] text-[#185515]">
       <div>
         <h1 className="text-2xl font-bold text-[#FB002B]">
           Emmanuel Okereafor
         </h1>
       </div>
+      <img src={Cham} alt="" className="h-20" />
 
       {/* menu */}
       <ul className="hidden md:flex gap-10 cursor-pointer ">
